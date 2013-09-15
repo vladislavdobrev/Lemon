@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelonStore.Data", "MelonStore.Data\MelonStore.Data.csproj", "{2BDF74CA-3DA0-43AC-B6E0-D990B39D77BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CB05620F-0D5D-4AAD-9358-040BDF86A42C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{4C296C24-9B56-4C88-BA6B-BFB355A297BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo", "Repo", "{EFF876BE-AEDB-43DB-A05A-8CA5E4E8925A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelonStore.Models", "MelonStore.Models\MelonStore.Models.csproj", "{DDEDA995-34C7-4BC9-9B1C-66D7F451939C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F9276118-CA60-4BCD-8F03-4D0BA3A517E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelonStore.Repositories", "MelonStore.Repositories\MelonStore.Repositories.csproj", "{66BCD22A-370B-48F4-AD48-05BB1E4B1265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelonStore.Api", "MelonStore.Api\MelonStore.Api.csproj", "{ABC9F012-2E40-45B0-9893-28CD4FA2456E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempClient", "TempClient\TempClient.csproj", "{74A9438A-1D56-44C7-B354-58A6FE6DF251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BDF74CA-3DA0-43AC-B6E0-D990B39D77BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDF74CA-3DA0-43AC-B6E0-D990B39D77BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDF74CA-3DA0-43AC-B6E0-D990B39D77BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDF74CA-3DA0-43AC-B6E0-D990B39D77BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEDA995-34C7-4BC9-9B1C-66D7F451939C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEDA995-34C7-4BC9-9B1C-66D7F451939C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEDA995-34C7-4BC9-9B1C-66D7F451939C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEDA995-34C7-4BC9-9B1C-66D7F451939C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BCD22A-370B-48F4-AD48-05BB1E4B1265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BCD22A-370B-48F4-AD48-05BB1E4B1265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BCD22A-370B-48F4-AD48-05BB1E4B1265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BCD22A-370B-48F4-AD48-05BB1E4B1265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC9F012-2E40-45B0-9893-28CD4FA2456E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC9F012-2E40-45B0-9893-28CD4FA2456E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC9F012-2E40-45B0-9893-28CD4FA2456E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC9F012-2E40-45B0-9893-28CD4FA2456E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A9438A-1D56-44C7-B354-58A6FE6DF251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A9438A-1D56-44C7-B354-58A6FE6DF251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A9438A-1D56-44C7-B354-58A6FE6DF251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A9438A-1D56-44C7-B354-58A6FE6DF251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BDF74CA-3DA0-43AC-B6E0-D990B39D77BD} = {CB05620F-0D5D-4AAD-9358-040BDF86A42C}
+		{DDEDA995-34C7-4BC9-9B1C-66D7F451939C} = {4C296C24-9B56-4C88-BA6B-BFB355A297BE}
+		{66BCD22A-370B-48F4-AD48-05BB1E4B1265} = {EFF876BE-AEDB-43DB-A05A-8CA5E4E8925A}
+		{ABC9F012-2E40-45B0-9893-28CD4FA2456E} = {F9276118-CA60-4BCD-8F03-4D0BA3A517E0}
+	EndGlobalSection
+EndGlobal
